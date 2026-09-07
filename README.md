@@ -2,7 +2,7 @@
 
 Arrange PDF pages for booklets, N-up layouts, repeat layouts and cut-and-stack jobs. Files stay on your Mac.
 
-[Download Imposition 0.1.0](https://github.com/keshavatearth/imposition-releases/releases/download/v0.1.0/Imposition-0.1.0.dmg)
+[Download Imposition 0.1.0](https://github.com/keshavatearth/imposition-releases/releases/download/v0.1.1/Imposition-0.1.1.dmg)
 
 Requires macOS 13 or later and Apple silicon. The app is signed with a Developer ID, notarized by Apple and distributed in a stapled disk image. Open the DMG and drag Imposition to Applications.
 
