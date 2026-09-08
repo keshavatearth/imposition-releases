@@ -2,7 +2,7 @@
 
 Arrange PDFs into booklets, cards, tickets and handouts. Check every front and back in the preview, then save the same layout as a PDF. Files stay on your Mac.
 
-[Download Imposition 0.2.0](https://github.com/keshavatearth/imposition-releases/releases/download/v0.2.0/Imposition-0.2.0.dmg)
+[Download Imposition 0.2.1](https://github.com/keshavatearth/imposition-releases/releases/download/v0.2.1/Imposition-0.2.1.dmg)
 
 Requires macOS 13 or later on Apple silicon. The app and disk image are signed with Developer ID; the disk image is notarized and stapled. Open the DMG and drag Imposition to Applications.
 
@@ -21,10 +21,10 @@ Print and fold a paper proof before a production run. Imposition does not perfor
 
 ## Verify the download
 
-SHA-256 for `Imposition-0.2.0.dmg`:
+SHA-256 for `Imposition-0.2.1.dmg`:
 
 ```
-f6285fbca14ee1aa786ba46038f2d9b1cfbfc61e2b7a606f7542120585324cac
+b85142150c3e3b64fd111c99bfcdc4ff6e30e80d4a7afd33492043d96b0b31fc
 ```
 
 The release also includes `SHA256SUMS.txt`. Earlier releases remain available in the release history.
