@@ -1,17 +1,30 @@
 # Imposition for Mac
 
-Arrange PDF pages for booklets, N-up layouts, repeat layouts and cut-and-stack jobs. Files stay on your Mac.
+Arrange PDFs into booklets, cards, tickets and handouts. Check every front and back in the preview, then save the same layout as a PDF. Files stay on your Mac.
 
-[Download Imposition 0.1.0](https://github.com/keshavatearth/imposition-releases/releases/download/v0.1.1/Imposition-0.1.1.dmg)
+[Download Imposition 0.2.0](https://github.com/keshavatearth/imposition-releases/releases/download/v0.2.0/Imposition-0.2.0.dmg)
 
-Requires macOS 13 or later and Apple silicon. The app is signed with a Developer ID, notarized by Apple and distributed in a stapled disk image. Open the DMG and drag Imposition to Applications.
+Requires macOS 13 or later on Apple silicon. The app and disk image are signed with Developer ID; the disk image is notarized and stapled. Open the DMG and drag Imposition to Applications.
 
-The first release includes paper sizes and custom dimensions, margins, gutters, crop marks, binding direction and PDF export. Print and fold a small proof before a production run. The app does not claim CMYK conversion or professional preflight certification.
+## What it handles
 
-SHA-256:
+- Merge and reorder PDFs; select, repeat, reverse or omit pages; insert blanks and rotate source pages.
+- Booklet signatures (8/12/16/24/32 pages or the whole document), binding direction, inward creep, duplex flip and separate manual fronts/backs.
+- N-up, repeated cards and cut-and-stack layouts, with front/back page plans.
+- Source page boxes, Fit or Actual size, custom sheets and finished sizes, margins, gutters and crop marks.
+- Presets that survive app restarts and portable settings JSON with native file dialogs.
+- A preview of the actual exported PDF artwork, with navigation and zoom.
+
+Print and fold a paper proof before a production run. Imposition does not perform color conversion, font preflight or PDF/X certification.
+
+[Try the browser tool and 45 print recipes](https://imposition.keshavatearth.workers.dev).
+
+## Verify the download
+
+SHA-256 for `Imposition-0.2.0.dmg`:
 
 ```
-2ed61cdd5fe42f1bf8f1d7b804375bc63247d33636237178f23402c582f11775
+f6285fbca14ee1aa786ba46038f2d9b1cfbfc61e2b7a606f7542120585324cac
 ```
 
-The browser tool and practical guides are available at [Imposition](https://salt-imposition.keshavatearth.workers.dev). This repository hosts release downloads.
+The release also includes `SHA256SUMS.txt`. Earlier releases remain available in the release history.
